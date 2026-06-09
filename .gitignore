@@ -1,0 +1,14 @@
+# Go binary output
+monitoring-svc
+monitoring-svc.exe
+
+# React — node_modules is a junction to D:\monitoring-node_modules (see setup.ps1)
+frontend/node_modules/
+frontend/dist/
+
+# Environment (contains DB password — never commit)
+.env
+
+# OS
+.DS_Store
+Thumbs.db
