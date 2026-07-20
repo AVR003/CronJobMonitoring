@@ -102,6 +102,3 @@ All endpoints under `/api` (except `/api/health`) require an `Authorization: Bea
 - No automatic WebSocket reconnect on the frontend — a dropped connection needs a page refresh
 - `script`/`custom` (script mode) monitor types execute arbitrary commands on the host with no sandboxing — only trusted users should be able to configure these
 
-## License
-
-_(add your license here)_
